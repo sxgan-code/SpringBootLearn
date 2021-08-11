@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -10,9 +11,9 @@
         <module name="demo01_quick" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="demo01_quick" target="1.8" />
-      <module name="demo01_quick2" target="1.8" />
+    <bytecodeTargetLevel target="16">
+      <module name="demo01_quick" target="8" />
+      <module name="demo01_quick2" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
